@@ -13,10 +13,6 @@ public class ComputerScienceStudent extends Student implements Citizen{
     public boolean isEnrolled() {
         return true;
     }
-    ///gemeinsamer public String über alle Klassen, aber mit anderen Werten///
-    public String majorDegree(){
-        return "Java";
-    }
 
     /// Getter
     @Override

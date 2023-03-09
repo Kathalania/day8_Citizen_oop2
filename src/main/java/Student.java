@@ -1,4 +1,4 @@
-public class Student {
+public abstract class Student {
         protected String id;
         protected String name;
 
@@ -10,7 +10,7 @@ public class Student {
         }
 
         ///abstrakte Methode///
-        //public abstract boolean isEnrolled();
+        public abstract boolean isEnrolled();
 
         ///gemeinsamer public String über alle Klassen, aber mit anderen Werten///
         public String majorDegree(){
